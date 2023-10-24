@@ -6,7 +6,8 @@ html {
     box-sizing: border-box;
     }
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
     font-size: 1.6rem;
 }
 
@@ -22,20 +23,33 @@ h1 {
     max-width: 1200px;
     width: 95%;
     margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .titulo-article{
     margin-top: 7rem;
+    color: rgb(238, 162, 48);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.entrada-blog{
+    border: 12px solid rgb(240, 198, 137);
+    border-radius: 10%;
+    padding: 10px;
+    margin-top: 2rem;
 }
 
 .entrada-blog a {
     display: inline-block;
-    background-color: #2196F3;
+    background-color: #f3cd21;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
+    
+    border: 1px solid rgb(234, 189, 28);
+    border-radius: 30%;
 }
 
 @media (min-width:480px) {
